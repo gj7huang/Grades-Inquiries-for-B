@@ -1,0 +1,65 @@
+#app {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    position: relative;
+}
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+#header {
+    margin: 30px; 
+}
+#search-stu {
+    height: 30px;
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    margin: 30px 0;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 550px;
+}
+
+.cou-header {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+}
+
+#student-name {
+    font-weight: 900;
+}
+
+#student-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px 20px 10px 30px;
+
+    border: 1px solid #000;
+}
+#student-list ul li {
+    margin: 10px 0;
+    list-style-type: circle;
+}
+.pass {
+    color: green;
+}
+
+.fail {
+    color: red;
+}
